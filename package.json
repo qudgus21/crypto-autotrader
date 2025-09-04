@@ -1,0 +1,23 @@
+{
+  "name": "crypto-autotrader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qudgus21/crypto-autotrader.git"
+  },
+  "homepage": "https://github.com/qudgus21/crypto-autotrader#readme",
+  "type": "module",
+  "dependencies": {
+    "ccxt": "^4.5.3",
+    "dotenv": "^17.2.2",
+    "technicalindicators": "^3.1.0",
+    "ws": "^8.18.3"
+  }
+}
